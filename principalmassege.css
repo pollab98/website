@@ -1,0 +1,376 @@
+*{
+margin:0px;
+padding:0px;
+
+}
+
+body{
+width:100%;
+height:1520px;
+/*   border:1px solid red;  */
+background:#f5f5f5;
+}
+
+.school_name{
+width:100%;
+height:150px;
+/*  border:2px solid blue;  */
+overflow:hide;
+}
+
+
+
+
+.logo{
+width:15%;
+height:100%;
+/*  border:1px solid blue;  */
+float:left;
+overflow:hide;
+background:#f5f5f5;
+
+}
+.logo img{
+width:100%;
+height:100%;
+border:0px;
+padding:0px;
+border-radius:60px;
+
+
+
+}
+
+.name{
+
+width:84.5%;
+height:100%;
+/*  border:1px solid maroon;*/
+float:right;
+
+}
+
+.name h1{
+width:100%;
+height:146px;
+font-size:53px;
+color:#0099cc;
+background:#f5f5f5;
+text-align:center;
+line-height:150px;
+text-shadow:3px 2px 0.7px green;
+box-shadow: 2px 4px 2px silver;
+letter-spacing:1px;
+}
+
+
+
+/* SCHOLL NAME STOP*/
+
+
+/* BRAKING NES START*/
+
+.braking_news{
+width:100%;
+height:50px;
+background-color:#fff;
+color:#0099cc;
+font-size:30px;
+text-align:center;
+}
+
+.braking_news marquee{
+padding-top:4px;
+}
+
+.braking_news marquee a{
+text-decoration:none;
+color:#0099cc;
+}
+
+/* BRAKINH NEWS STOP */
+
+
+
+.link{
+width:100%;
+height:50px;
+position:fixed;
+background-color:#0099cc;
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+}
+
+/* LiNK ul css*/
+
+.link ul{
+list-style:none;
+width:100%;
+}
+
+
+.link ul li{
+float:left;
+width:12%;
+/*
+height:;
+*/
+text-align:center;
+line-height:50px;
+
+
+
+}
+
+
+.link ul li a{
+display:block;
+text-decoration:none;
+color:#fff;
+}
+
+.link ul li a:hover{
+background:#fff;
+color:#0099cc;
+transition:800ms ease;
+}
+
+/*ABOUT DROP start*/
+
+.aboutdrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.aboutdrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.aboutdrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.aboutdrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}    
+/*about drop stop*/
+
+
+/*academe drop start*/
+.academicdrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.academicdrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.academicdrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.academicdrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}    
+
+/*academic drop stop*/
+
+
+/* */
+
+.informationdrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.informationdrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.informationdrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.informationdrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}    
+/* information drop stop */
+
+
+/* admission drop stop */
+
+
+
+.admissiondrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.admissiondrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.admissiondrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.admissiondrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}  
+
+/* admission drop stop*/
+
+/* campass drop start*/
+
+
+.campassdrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.campassdrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.campassdrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.campassdrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}  
+ 
+ /* campass drop stop */
+.principle{
+
+width:85%;
+height:1200px;
+background-color:#ddd;
+padding-left:20px;
+margin-left:7.5%;
+padding-top:70px;
+box-shadow: 7px 7px 4px silver;
+}
+.principle h1{
+
+text-align:center;
+font-size:45px;
+color:#0099cc;
+text-shadow:3px 2px 0.7px green;
+letter-spacing:1px;
+text-transform:uppercase;
+}
+.principle p{
+text-align:justify;
+font-size:30px;
+margin:0px 20px;
+text-indent:20px;
+word-spacing:3px;
+line-height:45px;
+}
+.principal_name{
+
+text-align:left;
+font-size:30px;
+margin:0px 20px;
+text-indent:15px;
+word-spacing:3px;
+line-height:40px;
+
+
+}

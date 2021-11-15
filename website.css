@@ -1,0 +1,853 @@
+*{
+margin:0px;
+padding:0px;
+
+}
+
+body{
+width:100%;
+height:1520px;
+/*   border:1px solid red;  */
+background:#f5f5f5;
+}
+
+.school_name{
+width:100%;
+height:150px;
+/*  border:2px solid blue;  */
+overflow:hide;
+}
+
+
+
+
+.logo{
+width:15%;
+height:100%;
+/*  border:1px solid blue;  */
+float:left;
+overflow:hide;
+background:#f5f5f5;
+
+}
+.logo img{
+width:100%;
+height:100%;
+border:0px;
+padding:0px;
+border-radius:60px;
+
+
+
+}
+
+.name{
+
+width:84.5%;
+height:100%;
+/*  border:1px solid maroon;*/
+float:right;
+
+}
+
+.name h1{
+width:100%;
+height:146px;
+font-size:53px;
+color:#0099cc;
+background:#f5f5f5;
+text-align:center;
+line-height:150px;
+text-shadow:3px 2px 0.7px green;
+box-shadow: 2px 4px 2px silver;
+letter-spacing:1px;
+font-family: "Times New Roman",serif;
+
+}
+
+
+
+/* SCHOLL NAME STOP*/
+
+
+/* BRAKING NES START*/
+
+.braking_news{
+width:100%;
+height:50px;
+background-color:#fff;
+color:#0099cc;
+font-size:30px;
+text-align:center;
+}
+
+.braking_news marquee{
+padding-top:4px;
+}
+
+.braking_news marquee a{
+text-decoration:none;
+color:#0099cc;
+}
+/* BRAKINH NEWS STOP */
+
+
+
+.link{
+width:100%;
+height:50px;
+background-color:#0099cc;
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+}
+
+/* LiNK ul css*/
+
+.link ul{
+list-style:none;
+width:100%;
+}
+
+
+.link ul li{
+float:left;
+width:12%;
+/*
+height:;
+*/
+text-align:center;
+line-height:50px;
+
+
+
+}
+
+
+.link ul li a{
+display:block;
+text-decoration:none;
+color:#fff;
+}
+
+.link ul li a:hover{
+background:#fff;
+color:#0099cc;
+transition:800ms ease;
+}
+
+/*ABOUT DROP start*/
+
+.aboutdrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.aboutdrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.aboutdrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.aboutdrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}    
+/*about drop stop*/
+
+
+/*academe drop start*/
+.academicdrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.academicdrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.academicdrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.academicdrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}    
+
+/*academic drop stop*/
+
+
+/* */
+
+.informationdrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.informationdrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.informationdrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.informationdrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}    
+/* information drop stop */
+
+
+/* admission drop stop */
+
+
+
+.admissiondrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.admissiondrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.admissiondrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.admissiondrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}  
+
+/* admission drop stop*/
+
+/* campass drop start*/
+
+
+.campassdrop ul
+{
+margin:0px;
+padding:0px;
+
+}      
+        
+.campassdrop ul li
+{
+box-shadow:rgba(0,0,0,0.5)0px 2px 6px 0px;
+background:#fff;
+display:none;
+float:none;
+
+} 
+  
+          
+.campassdrop ul li a
+{
+color:#0099cc;
+width:200px;
+background:#fff;
+}         
+      
+.campassdrop ul li a:hover
+{
+background:#0099cc;
+color:#fff;
+}   
+
+  
+.link ul li:hover ul li
+{
+display:block;
+}  
+ 
+ /* campass drop stop */
+
+
+
+
+.pic_container{
+width:100%;
+height:350px;
+  /*border:1px solid blue;   */
+}
+.slider{
+  width:100%;
+  height:100%;
+  background:url(madrasha1.jpg);
+  animation-name:slider;
+  animation-duration:60s;
+  animation-iteration-count:infinite;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:100%;
+  
+  }
+  @keyframes slider{
+  0%{background:url(madrasha1.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:100%;
+  }
+  20%{background:url(madrasha2.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:100%;
+  }
+  
+  30%{background:url(madrasha3.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:100%;
+  
+  }
+  45%{background:url(madrasha4.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:100%;
+  }
+  65% {background:url(madrasha5.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:100%;
+  }
+  85%{background:url(madrasha6.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:100%;
+  }
+  100%{background:url(madrasha7.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:100%;
+  }
+}
+
+
+
+
+.content{
+width:100%;
+height:870px;
+}
+
+
+.fotter{
+width:100%;
+height:45px;
+}
+
+.fotter h1{
+text-align:center;
+line-height:45px;
+
+}
+
+.fotter h1 a{
+text-decoration:none;
+color:black;
+
+}
+.fotter h1 a:hover{
+text-decoration:none;
+color:green;
+
+}
+
+/* center contant all css left side*/
+.leftside
+{
+height:850px;
+}
+
+
+.date_of_examination{
+height:170px;
+box-shadow: 5px 4px 5px silver;
+}
+
+.date_of_examination h1{
+width:98.3%;
+height:50px;
+font-size:20px;
+color:#fff;
+background:#0099cc;
+border:2px solid lightgreen;
+text-align:center;
+line-height:50px;
+text-shadow:3px 2px 0.7px green;
+
+}
+.date_of_examination ul{
+list-style:none;
+padding:0px;
+margin:0px;
+}
+
+.date_of_examination ul li{
+font-size:20px;
+margin-top:6px;
+
+
+}
+
+.date_of_examination ul li:before{
+content:"";
+display:inline-block;
+width:15px;
+height:15px;
+border-radius:50%;
+background:#089;
+margin-right:10px;
+margin-bottom:-2px;
+margin-left:3px;
+}
+
+
+.date_of_examination ul li a{
+text-decoration:none;
+color:green;
+
+}
+
+
+/*DATE OF EXAMINATION*/
+
+
+
+.pdf_link{
+height:140px;
+box-shadow: 5px 4px 5px silver;
+padding-top:10px;
+}
+
+.pdf_link h1{
+width:98.3%;
+height:50px;
+font-size:20px;
+color:#fff;
+background:#0099cc;
+border:2px solid lightgreen;
+text-align:center;
+line-height:50px;
+text-shadow:2px 2px 0.7px green;
+}
+.pdf_link ul{
+list-style:none;
+padding:0px;
+margin:0px;
+}
+
+.pdf_link ul li{
+font-size:20px;
+margin-top:6px;
+
+
+}
+
+.pdf_link ul li:before{
+content:"";
+display:inline-block;
+width:15px;
+height:15px;
+border-radius:50%;
+background:#089;
+margin-right:10px;
+margin-bottom:-2px;
+margin-left:3px;
+}
+
+
+.pdf_link ul li a{
+text-decoration:none;
+color:green;
+
+}
+     
+
+/*pdf link stop*/
+
+
+.important_link{
+height:375px;
+padding-top:10px;
+box-shadow: 5px 4px 5px silver;
+}
+
+
+.important_link h1{
+width:98.3%;
+height:50px;
+font-size:20px;
+color:#fff;
+background:#0099cc;
+border:2px solid lightgreen;
+text-align:center;
+line-height:50px;
+text-shadow:2px 2px 0.7px green;
+
+}
+.important_link ul{
+list-style:none;
+padding:0px;
+margin:0px;
+}
+
+.important_link ul li{
+font-size:17px;
+margin-top:4px;
+
+
+}
+
+.important_link ul li:before{
+content:"";
+display:inline-block;
+width:15px;
+height:15px;
+border-radius:50%;
+background:#089;
+margin-right:10px;
+margin-bottom:-2px;
+margin-left:3px;
+}
+
+
+.important_link ul li a{
+text-decoration:none;
+color:green;
+
+}
+
+/* IMPORTANT LINK STOP--*/
+
+
+.contact{
+height:150px;
+padding-top:10px;
+box-shadow: 5px 4px 5px silver;
+/*   border:1px solid black;  */
+}
+.contact h1{
+width:98.3%;
+height:40px;
+font-size:20px;
+color:#fff;
+background:#0099cc;
+border:2px solid lightgreen;
+text-align:center;
+line-height:50px;
+text-shadow:2px 2px 0.7px green;
+
+}
+
+.contact ul{
+list-style:none;
+}
+
+.contact ul li{
+/*font-size:17px;*/
+/*margin-top:4px;*/
+margin-left:7px;
+}
+
+.contact ul li a{
+text-decoration:none;
+color:green;
+
+}
+
+
+
+/* CONTACT STOP*/
+
+
+
+/* contant all css center side*/
+.centerside
+{
+
+height:720px;
+box-shadow: 0px 4px 3px silver;
+padding-left:7px;
+padding-right:7px;
+font-family: "Times New Roman",serif;
+
+}
+
+ .centerside h1{
+width:98.3%;
+height:60px;
+font-size:30px;
+color:#fff;
+background:#0099cc;
+border:2px solid lightgreen;
+text-align:center;
+line-height:60px;
+text-shadow:2px 2px 0.7px green;
+}
+
+
+    /* paragrph start */
+    
+.centerside p{
+margin-top:20px;
+text-align:justify;
+font-size:18px;
+margin-right:4px;
+text-indent:20px;
+word-spacing:2px;
+
+}
+
+
+.principal_name{
+padding-top:7px;
+font-size:18px;
+
+
+}
+/* paragrph stop */
+
+
+
+
+
+/* contant all css right side*/
+.rightside
+{
+height:850px;
+
+}
+
+.principal{
+height:255px;
+box-shadow: -5px 4px 5px silver;
+}
+
+.principal img{
+width:92%;
+height:180px;
+border:10px solid #FFE6A9;
+}
+
+.principal h1{
+
+text-align:center;
+padding:0px;
+margin:0px;
+color:blue;
+font-size:16px;
+letter-spacing:1px;
+word-spacing:2px;
+
+}
+
+/* PRINCIPAL right side stop*/
+
+.latest_news{
+height:208px;
+padding-top:10px;
+box-shadow: -5px 4px 5px silver;
+
+}
+
+.latest_news h1{
+width:100%;
+height:50px;
+font-size:20px;
+color:#fff;
+background:#0099cc;
+border:1px solid lightgreen;
+text-align:center;
+line-height:50px;
+text-shadow:2px 2px 0.7px green;
+}
+
+
+.latest_news ul{
+list-style:none;
+padding-left:4px;
+margin:0px;
+}
+
+.latest_news ul li{
+font-size:19px;
+margin-top:4px;
+margin-bottom:-15px;
+padding:1px;
+}
+
+.latest_news ul li:before{
+content:"";
+display:inline-block;
+width:15px;
+height:15px;
+border-radius:50%;
+background:#089;
+margin-right:10px;
+margin-bottom:-2px;
+margin-left:3px;
+}
+
+
+.latest_news ul li a{
+text-decoration:none;
+color:green;
+
+}       
+
+
+/* LATEST NEWS right side stop*/
+
+
+.notice_board{
+height:350px;
+padding-top:10px;
+box-shadow: -5px 4px 5px silver;
+}
+
+.notice_board h1{
+width:100%;
+height:50px;
+font-size:20px;
+color:#fff;
+background:#0099cc;
+border:1px solid lightgreen;
+text-align:center;
+line-height:50px;
+text-shadow:2px 2px 0.7px green;
+}
+.notice_board ul{
+list-style:none;
+padding:3px;
+margin:0px;
+}
+
+.notice_board ul li{
+font-size:17px;
+margin-top:4px;
+}
+
+.notice_board ul li:before{
+content:"";
+display:inline-block;
+width:15px;
+height:15px;
+border-radius:50%;
+background:#089;
+margin-right:10px;
+margin-bottom:-2px;
+margin-left:3px;
+}
+
+
+.notice_board ul li a{
+text-decoration:none;
+color:green;
+
+}
+  
+
+
+/* NOTICE BORD right side stop*/
+.column1
+{
+float:left;
+width:25%;
+}
+
+.column2
+{
+float:left;
+width:50%;
+}
+
+
+.column3
+{
+float:left;
+width:25%;
+}
+
+
+.row
+{
+overflow:auto;
+height:100%;
+}
+
